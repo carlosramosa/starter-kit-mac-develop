@@ -1,8 +1,8 @@
 'use strict';
 
 const inquirer = require('inquirer');
-const { one, two, three, four, five, six } = require('./data/questions')
-const iTerm = require('./iTerm');
+const { one, two, three, four, five, six, seven, eight } = require('./data/questions')
+const { iTerm2, docker, sublimeText2 } = require('./downloader');
 const { execute } = require('./executeScripts');
 
 const ask =  question => script  =>
@@ -24,6 +24,8 @@ module.exports = () =>
         .then( () => ask (three) (processAnswer('install_git')))
         .then( () => ask (four) (processAnswer('install_node')))
         .then( () => ask (five) (processAnswer('install_python')))
-        .then( () => ask (six) (iTerm));
+        // .then( () => ask (six) (iTerm2()))
+        // .then( () => ask (seven) (docker()))
+        .then( () => ask (eight) (sublimeText2()));
 
 

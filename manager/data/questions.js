@@ -45,3 +45,19 @@ module.exports.six =
     message: `Now we go to download iTerm2, the best shell`,
     default: true
   };
+
+module.exports.seven =
+  {
+    type: 'confirm',
+    name: 'answer',
+    message: `Docker time !!!! Enjoy it !!`,
+    default: true
+  };
+
+module.exports.eight =
+  {
+    type: 'confirm',
+    name: 'answer',
+    message: `Do you want install SublimeText2? I do it..`,
+    default: true
+  };

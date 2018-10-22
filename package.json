@@ -14,7 +14,7 @@
   "author": "ramosar",
   "license": "ISC",
   "dependencies": {
-    "downloader-multiformat": "^1.0.3",
+    "downloader-multiformat": "^1.0.5",
     "eslint": "^5.7.0",
     "extract-zip": "^1.6.7",
     "https": "^1.0.0",
