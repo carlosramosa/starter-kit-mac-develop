@@ -1,0 +1,28 @@
+{
+  "name": "starter-kit-mac-develop",
+  "version": "1.0.0",
+  "description": "An awesome StarterKit for Mac to Develop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosramosa/downloader-multiformat"
+  },
+  "author": "ramosar",
+  "license": "ISC",
+  "dependencies": {
+    "downloader-multiformat": "^1.0.3",
+    "eslint": "^5.7.0",
+    "extract-zip": "^1.6.7",
+    "https": "^1.0.0",
+    "inquirer": "^6.1.0",
+    "lodash": "^4.17.11",
+    "request-promise": "^4.2.2",
+    "shelljs": "^0.8.2",
+    "unzip": "^0.1.11",
+    "unzipper": "^0.9.4"
+  }
+}
